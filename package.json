@@ -1,0 +1,22 @@
+{
+  "name": "profile-rebuild",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite src --port 3000",
+    "build": "vite build src",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "vite": "^5.2.9",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "gsap": "^3.7.0",
+    "locomotive-scroll": "^4.1.1"
+  }
+}
